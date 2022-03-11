@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  background-color: rgb(239, 251, 255);
+  opacity: 0.9;
+}
+
+footer {
+  background-color: rgb(239, 251, 255);
+}
+
+hr {
+  margin: 0px;
+}
+
+h1 {
+  color: #0af;
+  font-family: 'Dancing Script', cursive;
+}
+
+h5 {
+  color: #555;
+}
+
+.main-content {
+  padding-top: 250px;
+}
+
+.nav-item {
+  width: 150px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: inline-block;
+  color: #222;
+}
+
+.nav-item:hover {
+  color: #00aaff;
+}
+
+.blog-pic {
+  max-width: 750px;
+  margin-right: auto;
+  margin-left: auto;
+}
